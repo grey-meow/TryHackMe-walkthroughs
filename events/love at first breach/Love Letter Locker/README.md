@@ -54,7 +54,7 @@ This is a common indicator of an **Insecure Direct Object Reference (IDOR)** vul
 
 ## Exploitation
 To test this, the numeric ID in the URL was manually modified.
-<img src="loveletterlocker_screenshot8.png" width="400"><br>
+<img src="loveletterlcoker_screenshot8.png" width="400"><br>
 By changing the ID value to `1`, the application returns a letter belonging to another user.
 
 The application does not verify whether the authenticated user owns the requested letter, allowing unauthorized access to other users’ private data.
