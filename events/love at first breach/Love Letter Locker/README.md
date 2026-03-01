@@ -18,7 +18,7 @@ If you are familiar with TryHackMe rooms, you may skip to the **Observation** se
 
 ## Observation
 
-<img src="loveletterlcoker_screenshot1.png" width="400"><br>
+<img src="loveletterlocker_screenshot1.png" width="400"><br>
 
 To understand how the application works, a test account was created.
 
@@ -35,7 +35,8 @@ abcd123
 
 After signing up, the application redirects to the login page. 
 <img src="loveletterlocker_screenshot3.png" width="400"><br>
-We'll be using the same username and password we signed up with for the login page
+We'll be using the same username and password we signed up with for the login page.
+
 Once login is successful, it should look like this:<br>
 <img src="loveletterlocker_screenshot4.png" width="400"><br>
 
